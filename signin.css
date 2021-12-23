@@ -1,0 +1,126 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif;
+  box-sizing: border-box;
+}
+.bg-image{
+    background-image:url(https://m.economictimes.com/photo/imgsize-1334288,msid-73836007,width-600,height-450/zero-budget-farming-may-not-be-a-good-move-for-fertiliser-companies-experts.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow:hidden;
+    height:100vh;
+}
+.container{
+  max-width: 440px;
+  padding: 0 20px;
+  margin: 100px auto;
+}
+.content-wrap{
+  width: 100%;
+  background:transparent;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px 2px rgba(0,0,0,0.9);
+}
+.content-wrap .title{
+  height: 90px;
+  background:transparent;
+  border-radius: 6px 5px 0 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-wrap form{
+  padding: 28px 26px 27px 25px;
+}
+.content-wrap form .row{
+  position: relative;
+  height: 45px;
+  margin-bottom: 15px;
+}
+.content-wrap form .row input{
+  
+  width: 100%;
+  height: 100%;
+  padding-left: 60px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+form .row input:focus{
+  border-color: #867979;
+  box-shadow: inset 0px 0px 2px 2px #94979740;
+}
+form .row input::placeholder{
+  color: #999;
+}
+.content-wrap form .row i{
+  position: absolute;
+  width: 47px;
+  height: 100%;
+  color: black;
+  font-size: 18px;
+  background: transparent;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content-wrap form .forgot{
+  margin: 8px 0 20px 0;
+  text-align:center;
+}
+.content-wrap form .forgot a{
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+  
+}
+.content-wrap form .forgot a:hover{
+  text-decoration: underline;
+}
+.content-wrap form .success input{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background: black;
+  border: 1px solid #867979;
+  cursor: pointer;
+}
+form .success input:hover{
+  background: #808080;
+}
+.content-wrap form .signup{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+  color:black;
+}
+.content-wrap form .signup a{
+  color: #fff;
+  text-decoration: none;
+}
+form .signup a:hover{
+  text-decoration: underline;
+}
+.content-wrap form .signin{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+    color:black;
+  }
+  .content-wrap form .signin a{
+    color: #fff;
+    text-decoration: none;
+  }
+  form .signin a:hover{
+    text-decoration: underline;
+  }
